@@ -16,6 +16,7 @@ sudo -E ./setup.sh
 
 ```bash
 cd aries-framework-javascript/demo
+nvm install 18.0.0
 yarn install
 ```
 
