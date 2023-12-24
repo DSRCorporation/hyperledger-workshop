@@ -28,6 +28,10 @@ yarn alice
 
 ## Step 4. Launch Issuer (Faber) CLI
 
+For launching the demo, open a new terminal in parallel and launch Faber profile
+
 ```bash
+cd aries-framework-javascript/demo
+nvm install 18.0.0
 yarn faber
 ```

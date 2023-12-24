@@ -26,7 +26,7 @@ cp bin/libindy.so /usr/lib/libindy.so
 echo "### Setup Aries Framework environment"
 if [ ! -d "aries-framework-javascript" ]; then
     git clone https://github.com/DSRCorporation/aries-framework-javascript.git
-    chmod -R 777 aries-framework-javascript
 fi
-pushd aries-framework-javascript/demo
+pushd aries-framework-javascript
 git checkout indy-besu-demo
+chmod -R 777 .
