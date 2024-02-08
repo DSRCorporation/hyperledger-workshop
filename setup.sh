@@ -4,14 +4,12 @@ set -eux
 
 # Launch Indy Besu pool
 echo "### Launch Indy Besu pool ###"
-if [ ! -d "indy-node" ]; then
-  git clone https://github.com/DSRCorporation/indy-node.git
+if [ ! -d "indy-besu" ]; then
+  git clone https://github.com/DSRCorporation/indy-besu.git
 fi
-pushd indy-node
-git checkout indy-besu
 pushd indy-besu
-bash ./network/scripts/run.sh
-popd
+git checkout indy-besu-demo
+bash ./network/scripts/run.sh -b
 popd
 
 # Setup Libindy environment
