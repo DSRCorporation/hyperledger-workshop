@@ -4,7 +4,7 @@ Environment for a Hyperledger Workshop for issuing credentials via Indy Besu led
 
 ## Step 0. Open the repository in Gitpod
 
-https://gitpod.io/#https://github.com/Toktar/hyperledger-workshop.git
+https://gitpod.io/#https://github.com/DSRCorporation/hyperledger-workshop.git
 
 ## Step 1. Setup Indy environment and launch Indy Besu ledger (pool)
 
