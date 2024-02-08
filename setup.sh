@@ -28,5 +28,5 @@ if [ ! -d "aries-framework-javascript" ]; then
     git clone https://github.com/DSRCorporation/aries-framework-javascript.git
 fi
 pushd aries-framework-javascript
-git checkout indy-besu-demo
+git checkout indy-besu-demo-using-did-ethr
 chmod -R 777 .
